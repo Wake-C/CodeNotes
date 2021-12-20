@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="redis-lock-demo" />
+        <module name="ms-registry" />
+        <module name="ms-auth2-server" />
+        <module name="ms-follow" />
+        <module name="ms-seckill" />
+        <module name="ms-feed" />
+        <module name="ms-getaway" />
+        <module name="ms-dinners" />
+        <module name="commoms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-dinners" options="" />
+      <module name="ms-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
