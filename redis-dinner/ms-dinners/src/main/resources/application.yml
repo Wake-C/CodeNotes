@@ -1,10 +1,10 @@
 server:
-    port: 8081 # ??
+    port: 8081 # 端口
 
 spring:
     application:
-        name: ms-diners # ???
-    # ???
+        name: ms-diners # 应用名
+    # 数据库
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
@@ -19,9 +19,9 @@ spring:
     # swagger
     swagger:
         base-package: com.imooc.diners
-        title: ????????API????
+        title: 慕课美食社交食客API接口文档
 
-# Oauth2 ?????
+# Oauth2 客户端信息
 oauth2:
     client:
         client-id: appId
@@ -29,12 +29,12 @@ oauth2:
         grant_type: password
         scope: api
 
-# oauth2 ????
+# oauth2 服务地址
 service:
     name:
         ms-oauth-server: http://ms-oauth2-server/
-
-# ?? Eureka Server ????
+        ms-points-server: http://ms-points/
+# 配置 Eureka Server 注册中心
 eureka:
     instance:
         prefer-ip-address: true
@@ -46,7 +46,7 @@ eureka:
 # Mybatis
 mybatis:
     configuration:
-        map-underscore-to-camel-case: true # ??????
+        map-underscore-to-camel-case: true # 开启驼峰映射
 
 logging:
     pattern:

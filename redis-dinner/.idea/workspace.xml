@@ -5,118 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a947734-a280-446d-961e-6044285b45d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/commoms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/constant/ApiConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/constant/RedisKeyConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/exception/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/base/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/domain/ResultInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/domain/SignInIdentity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/dto/DinersDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/Diners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/Feeds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/Follow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/SeckillVouchers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/VoucherOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/FeedsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/ShortDinerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/SignInDinerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/utils/AssertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/utils/ResultInfoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/Oauth2ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/config/ClientOAuth2DataConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/config/MyAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/controller/OAuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/mapper/DinersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/java/com/imooc/oauth2/server/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/test/java/com/imooc/oauth2/server/OAuth2ServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-auth2-server/src/test/java/com/imooc/oauth2/server/controller/OAuthControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/DinersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/OAuth2ClientConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/RedisTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/DinersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/SendVerifyCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/domain/OAuthDinerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/mapper/DinersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/service/DinersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/service/SendVerifyCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/vo/LoginDinerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/FeedsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/config/RedisTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/controller/FeedsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/mapper/FeedsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/java/com/imooc/feeds/service/FeedsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-feed/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/FollowApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/config/RedisTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/controller/FollowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/mapper/FollowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/service/FollowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-follow/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/java/com/imooc/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/java/com/imooc/gateway/component/HandleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/java/com/imooc/gateway/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/java/com/imooc/gateway/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/java/com/imooc/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-getaway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-registry/src/main/java/com/dinner/registry/RegistryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-registry/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/SeckillApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/config/RedisLockConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/config/RedisTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/controller/SeckillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/mapper/SeckillVouchersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/mapper/VoucherOrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/model/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/java/com/imooc/seckill/service/SeckillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/resources/lock.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/resources/stock.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-seckill/src/main/resources/unlock.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/demo01/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/demo01/RedisLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/demo02/RedisLock02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/demo02/RedisLockTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/reentrant/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/reentrant/ReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/reentrant/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock-demo/src/main/java/com/imooc/reentrant/UnReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/constant/PointTypesConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/DinerPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/pojo/Reviews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/DinerPointsRankVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/NearMeDinerVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/model/vo/ReviewsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/controller/NearMeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/controller/SignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/service/NearMeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/service/SignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/PointsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/config/RedisTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/controller/DinerPointsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/mapper/DinerPointsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/service/DinerPointsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/test/java/com/imooc/points/PointsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-points/src/test/java/com/imooc/points/controller/DinerPointsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/RestaurantApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/config/RedisTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/controller/RestaurantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/controller/ReviewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/mapper/RestaurantMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/mapper/ReviewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/service/RestaurantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/java/com/imooc/restaurants/service/ReviewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/test/java/com/imooc/restaurants/RestaurantApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-restaurant/src/test/java/com/imooc/restaurants/service/RestaurantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basic_java_practice" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_java_practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/constant/RedisKeyConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/commoms/src/main/java/com/imooc/commons/constant/RedisKeyConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/constant/ApiConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/constant/RedisKeyConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/exception/ParameterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/base/BaseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/domain/ResultInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/domain/SignInIdentity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/dto/DinersDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/pojo/Diners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/pojo/Feeds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/pojo/Follow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/pojo/SeckillVouchers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/pojo/VoucherOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/vo/FeedsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/vo/ShortDinerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/model/vo/SignInDinerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/utils/AssertUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commoms/target/classes/com/imooc/commons/utils/ResultInfoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth2-server/tokens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth2-server/tokens.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/DinersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/DinersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/OAuth2ClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/config/OAuth2ClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/RedisTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/config/RedisTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/config/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/DinersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/controller/DinersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/controller/SendVerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/controller/SendVerifyCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/domain/OAuthDinerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/domain/OAuthDinerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/mapper/DinersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/mapper/DinersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/service/DinersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/service/DinersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/service/SendVerifyCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/service/SendVerifyCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/java/com/imooc/diners/vo/LoginDinerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/java/java/com/imooc/diners/vo/LoginDinerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dinners/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dinners/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/src/main/java/com/imooc/follow/service/FollowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/target/classes/com/imooc/follow/controller/FollowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/target/classes/com/imooc/follow/controller/FollowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-follow/target/classes/com/imooc/follow/service/FollowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ms-follow/target/classes/com/imooc/follow/service/FollowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-getaway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-getaway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-getaway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-getaway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-seckill/target/classes/com/imooc/seckill/controller/SeckillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-seckill/target/classes/com/imooc/seckill/handler/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-seckill/target/classes/com/imooc/seckill/mapper/SeckillVouchersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-seckill/target/classes/com/imooc/seckill/mapper/VoucherOrdersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-seckill/target/classes/com/imooc/seckill/service/SeckillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +160,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.edited.regexp" value="Sample-Text" />
@@ -194,7 +171,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -205,10 +182,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/commoms/src/main/java" />
-      <recent name="$PROJECT_DIR$/ms-feed/src/main/java" />
-      <recent name="$PROJECT_DIR$/ms-feed/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ms-getaway/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ms-follow/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ms-restaurant/src/main/java" />
+      <recent name="$PROJECT_DIR$/ms-restaurant/src/test" />
+      <recent name="$PROJECT_DIR$/ms-restaurant/src/main" />
+      <recent name="$PROJECT_DIR$/ms-dinners/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +196,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeedsApplication">
+  <component name="RunManager" selected="JUnit.DinerPointsControllerTest.addPoints">
+    <configuration name="DinerPointsControllerTest.addPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ms-points" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.points.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.points.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.points.controller.DinerPointsControllerTest" />
+      <option name="METHOD_NAME" value="addPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DinersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ms-dinners" />
       <extension name="coverage">
@@ -259,46 +252,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-auth2-server" />
+    <configuration name="PointsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ms-points" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.oauth2.server.*" />
+          <option name="PATTERN" value="com.imooc.points.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.oauth2.server.Oauth2ServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-registry" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dinner.registry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dinner.registry.RegistryApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.points.PointsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+      <item itemvalue="JUnit.DinerPointsControllerTest.addPoints" />
+      <item itemvalue="Spring Boot.PointsApplication" />
       <item itemvalue="Spring Boot.DinersApplication" />
       <item itemvalue="Spring Boot.FollowApplication" />
-      <item itemvalue="Spring Boot.RegistryApplication" />
       <item itemvalue="Spring Boot.FeedsApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FeedsApplication" />
-        <item itemvalue="Spring Boot.RegistryApplication" />
         <item itemvalue="Spring Boot.FollowApplication" />
         <item itemvalue="Spring Boot.DinersApplication" />
-        <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+        <item itemvalue="Spring Boot.PointsApplication" />
+        <item itemvalue="JUnit.DinerPointsControllerTest.addPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +292,29 @@
       <updated>1639379262213</updated>
       <workItem from="1639379264386" duration="68094000" />
       <workItem from="1639730625322" duration="4767000" />
+      <workItem from="1640003333416" duration="21966000" />
+      <workItem from="1640171626668" duration="6167000" />
+      <workItem from="1640250371938" duration="15227000" />
+      <workItem from="1640576651575" duration="1431000" />
+      <workItem from="1640678654065" duration="5582000" />
+      <workItem from="1640689123833" duration="7426000" />
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/controller/DinerPointsController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-points/src/main/java/com/imooc/points/service/DinerPointsService.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ms-restaurant" />
         <module name="redis-lock-demo" />
         <module name="ms-registry" />
+        <module name="ms-points" />
         <module name="ms-auth2-server" />
         <module name="ms-follow" />
         <module name="ms-seckill" />
@@ -20,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ms-gateway" target="1.8" />
+      <module name="ms-sign" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

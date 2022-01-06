@@ -18,6 +18,8 @@
         <module>ms-seckill</module>
         <module>ms-follow</module>
         <module>ms-feed</module>
+        <module>ms-points</module>
+        <module>ms-restaurant</module>
     </modules>
     <!-- 可以集中定义依赖资源的版本信息 -->
     <properties>
