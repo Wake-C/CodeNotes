@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/deliveryman-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/deliveryman-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/order-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/order-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/restaurant-service-manage " />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/restaurant-service-manage " />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/reward-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/reward-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/settlement-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter3_basic_mq/settlement-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter4_advanced_feature/order-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter4_advanced_feature/order-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter4_advanced_feature/restaurant-service-manage " />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter4_advanced_feature/restaurant-service-manage " />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/imooc_new_rabbit/chapter5_spring_mq/order-service-manage" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/imooc_new_rabbit/chapter5_spring_mq/order-service-manage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
