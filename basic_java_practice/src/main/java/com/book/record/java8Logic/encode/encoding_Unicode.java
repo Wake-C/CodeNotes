@@ -1,4 +1,4 @@
-package com.book.record.java8Logic;
+package com.book.record.java8Logic.encode;
 
 import java.io.UnsupportedEncodingException;
 
