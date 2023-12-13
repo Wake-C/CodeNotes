@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/chapter5_spring_mq.iml" filepath="$PROJECT_DIR$/.idea/chapter5_spring_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service-manage.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service-manage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service-manage.main.iml" />
     </modules>
   </component>
 </project>
